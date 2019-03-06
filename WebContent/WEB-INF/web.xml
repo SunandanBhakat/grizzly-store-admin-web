@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>grizzly-store-admin-web</display-name>
+  <welcome-file-list>
+    <welcome-file>login.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>VerifyAdminController</servlet-name>
+    <servlet-class>com.pack.controller.VerifyAdminController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>VerifyAdminController</servlet-name>
+    <url-pattern>/VerifyAdminController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ListProductsController</servlet-name>
+    <servlet-class>com.pack.controller.ListProductsController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ListProductsController</servlet-name>
+    <url-pattern>/ListProductsController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>RemoveProductController</servlet-name>
+    <servlet-class>com.pack.controller.RemoveProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RemoveProductController</servlet-name>
+    <url-pattern>/RemoveProductController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViewProductController</servlet-name>
+    <servlet-class>com.pack.controller.ViewProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewProductController</servlet-name>
+    <url-pattern>/ViewProductController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AddProductController</servlet-name>
+    <servlet-class>com.pack.controller.AddProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddProductController</servlet-name>
+    <url-pattern>/AddProductController</url-pattern>
+  </servlet-mapping>
+    <servlet>
+    <servlet-name>LogoutController</servlet-name>
+    <servlet-class>com.pack.controller.LogoutController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutController</servlet-name>
+    <url-pattern>/LogoutController</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
